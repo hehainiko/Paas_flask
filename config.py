@@ -1,5 +1,5 @@
 # 阿里云 PolarDB PostgreSQL 配置
-DB_HOST = "yunjisuan.rwlb.rds.aliyuncs.com:5432"
+DB_HOST = "yunjisuansuan.rwlb.rds.aliyuncs.com:5432"
 DB_PORT = 5432
 DB_USER = "zhaofulin"
 DB_PASSWORD = "Zfl20050815!"
