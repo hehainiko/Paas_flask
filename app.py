@@ -34,6 +34,5 @@ def test_db():
         return f"✅ 数据库连接成功！共有 {len(users)} 个用户"
     except Exception as e:
         return f"❌ 数据库连接失败：{str(e)}"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000) 
