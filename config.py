@@ -6,5 +6,5 @@ DB_PASSWORD = "Zfl20050815!"
 DB_NAME = "sports_meet_se"  # 你刚创建的数据库
 
 # 连接串（自动拼接，不用改）
-SQLALCHEMY_DATABASE_URI = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+SQLALCHEMY_DATABASE_URI = "postgresql+pg8000://zhaofulin:Zf120050815!@yunjisuansuan.rwlb.rds.aliyuncs.com:5432/sports_meet_se"
 SQLALCHEMY_TRACK_MODIFICATIONS = False
